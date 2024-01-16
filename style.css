@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'CeraPro-Regular';
+    src: url('fonts/CeraPro-Regular.woff') format('woff');
+}
+body {
+    font-family: CeraPro-Regular, sans-serif;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.flexClass{
+    display: flex;
+}
+footer{
+    background-color: #080808;
+    color: #FFFFFF;
+    font-family: 'CeraPro-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 40px 0 20px ;
+}
+.f1{
+    max-width: 399px;
+    padding-right: 126px;
+}
+.f1 h4:first-of-type{
+    padding-bottom: 68px;
+}
+.f2{
+    padding-right: 126px;
+}
+.f2 p{
+    padding-bottom: 20px;
+}
+.f3 h3{
+    padding-bottom: 8px;
+}
+.f3 h4{
+    padding-bottom: 30px;
+}
+.f3 h5{
+    padding-bottom: 19px;
+}

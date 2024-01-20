@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+    .popup,
+    .popup_pay,
+    .popup_ty{
+        width: 350px;
+        height: 400px;
+    }
+    .popup h3,
+    .popup_pay h3,
+    .popup_ty h3{
+        width: 320px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .popup h5,
+    .popup_pay h5,
+    .popup_ty h5{
+        font-size: 16px;
+        max-width: 320px;
+        font-weight: 400;
+    }
+    .phoneNumber{
+        width: 286px;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+    .phoneNumber::placeholder{
+        font-size: 14px;
+    }
+    .popup-content,
+    .popup-content_pay,
+    .popup-content_ty {
+        width: 320px;
+    }
+    .popup-content_ty > * {
+        padding-bottom: 8px;
+    }
+    .popup-content .phoneNumber{
+        width: 286px;
+        margin-left: 0;
+    }
+
+    .close,
+    .closePopup_pay,
+    .closePopup_ty{
+        font-size: 28px;
+        top: 10px;
+    }
+    .popup_ty{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+}

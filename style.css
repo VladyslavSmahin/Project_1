@@ -558,9 +558,6 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
-.popup_ty{
-   display: flex;
-}
 .socials_popup{
     width: 120px;
     height: 120px;

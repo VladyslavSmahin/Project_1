@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const popup_ty = document.querySelector('.popup_ty');
     const closePopupButton_ty = document.querySelector('.closePopup_ty');
 
+    const telegramButton_pay = document.querySelector('.telegramButton_pay')
+
     openPopupButton.addEventListener('click', function () {
         popup.style.display = 'flex';
     });
@@ -36,9 +38,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     openPopupButton_ty.addEventListener('click', function () {
         popup_ty.style.display = 'flex';
+        popup.style.display = 'none';
     });
 
     closePopupButton_ty.addEventListener('click', function () {
         popup_ty.style.display = 'none';
     });
+
+    telegramButton_pay.addEventListener('click', function (){
+        popup_pay.style.display = 'none';
+        alert('плати бабки')
+    })
 });

@@ -46,9 +46,6 @@
         font-size: 28px;
         top: 10px;
     }
-    .popup_ty{
-        display: flex;
-    }
 }
 
 @media screen and (max-width: 1024px) {

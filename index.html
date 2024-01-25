@@ -5,15 +5,21 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="description" content="Марафон `Я хочу... себе` про розуміння свого тіла, розпаковка своєї сексуальності, пропрацювання своїх комплексів, пізнання нових технік">
+    <meta name="keywords" content="Сексологія, сексолог, сексуальність, жіночність, пошуки себе, про тіло, комплекси, саморозвиток, секс, відносини">
+    <meta http-equiv="Content-Language" content="ua">
+    <meta name="robots" content="index, follow">
+
+    <title>Онлайн Марафон</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
 <main>
-    <section class="flexClass  container">
+    <section class="flexClass  container section1" id="section1">
         <img id="images_1" src="images/1_1.webp" alt="img">
-        <div>
+        <div class="section1Content">
             <p id="start19">Старт 19 лютого Тривалість 7 днів</p>
             <div class="flexClass">
                 <h1>Онлайн Марафон</h1>
@@ -45,7 +51,7 @@
             <button class="button openPopup_pay">Купити</button>
         </div>
     </section>
-    <section class="container flexClass section2">
+    <section class="container flexClass section2" id="section2">
         <div class="left-column">
             <img id="Clip_path_4" src="images/Clip_path_4.svg" alt="Left Image 1">
             <h2>Про автора</h2>
@@ -64,7 +70,7 @@
             <img id="images_3" src="images/3_1.webp" alt="Right Image 2">
         </div>
     </section>
-    <section class="section3">
+    <section class="section3" id="section3">
         <div class="container">
             <h2>Для кого цей марафон?</h2>
             <div class="flexClass">
@@ -83,7 +89,7 @@
             <button class="button buttonC openPopup_pay">Купити</button>
         </div>
     </section>
-    <section class="section4">
+    <section class="section4" id="section4">
         <div class="container">
             <h2>Програма 7 денного марафону</h2>
             <div class="program">
@@ -99,48 +105,54 @@
             <button class="button buttonC openPopup_pay">Купити</button>
         </div>
     </section>
-    <section class="section5">
-        <div class="container">
+    <section class="section5" id="section5">
+        <div class="container ">
             <h2>Відгуки</h2>
-            <div class="flexClass">
-                <div class="review">
-                    <h4>Оксана</h4>
-                    <p>Ланочка, дякую тобі за таку можливість розкриття своєї сексуальності. Ти дійсно професіонал,
-                        подача
-                        інформації та щирість твоя просто неймовірна.
-                        Дуже багато зроблено роботи.
-                        Надихай і розкривай нас жінок, ти робиш дуже гарну справу❤️❤️❤️❤️</p>
-                    <h5>15.01.24</h5>
-                </div>
-                <div class="review">
-                    <h4>Анастасія</h4>
-                    <p>раніше не проходила нічого подібного, тому інформація була вся нова і цікава, подивились на секс
-                        та
-                        процес по новому, а також на своє тіло і його властивості🥰🔥</p>
-                    <h5>15.01.24</h5>
-                </div>
-                <div class="review">
-                    <h4>Вероніка</h4>
-                    <p>То, підпал🔥 Як учасниця марафону відчула підтримку, заряд енергії та відкрите обговорення тем
-                        про
-                        які в суспільстві не принято говорити, дуже сподобалось те, що без води - чітко, ясно і
-                        цікаво)</p>
-                    <h5>12.01.24</h5>
-                </div>
-                <div class="review">
-                    <h4>Тетяна</h4>
-                    <p>Отримала багато цікавої інформації, деякі завдання ще планую виконувати) дякую за класну та
-                        легку
-                        подачу☺️</p>
-                    <h5>11.01.24</h5>
+            <div class="sliderButtons">
+                <button class="prevSlide">Назад</button>
+                <button class="nextSlide">Вперед</button>
+            </div>
+            <div class="slider-container ">
+                <div class="slider flexClass">
+                    <div class="slide review">
+                        <h4>Оксана</h4>
+                        <p>Ланочка, дякую тобі за таку можливість розкриття своєї сексуальності. Ти дійсно професіонал,
+                            подача
+                            інформації та щирість твоя просто неймовірна.
+                            Дуже багато зроблено роботи.
+                            Надихай і розкривай нас жінок, ти робиш дуже гарну справу❤️❤️❤️❤️</p>
+                        <h5>15.01.24</h5>
+                    </div>
+                    <div class="slide review">
+                        <h4>Анастасія</h4>
+                        <p>раніше не проходила нічого подібного, тому інформація була вся нова і цікава, подивились на секс
+                            та
+                            процес по новому, а також на своє тіло і його властивості🥰🔥</p>
+                        <h5>15.01.24</h5>
+                    </div>
+                    <div class="slide review">
+                        <h4>Вероніка</h4>
+                        <p>То, підпал🔥 Як учасниця марафону відчула підтримку, заряд енергії та відкрите обговорення тем
+                            про
+                            які в суспільстві не принято говорити, дуже сподобалось те, що без води - чітко, ясно і
+                            цікаво)</p>
+                        <h5>12.01.24</h5>
+                    </div>
+                    <div class="slide review">
+                        <h4>Тетяна</h4>
+                        <p>Отримала багато цікавої інформації, деякі завдання ще планую виконувати) дякую за класну та
+                            легку
+                            подачу☺️</p>
+                        <h5>11.01.24</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section6">
+    <section class="section6" id="section6">
         <div class="container flexClass">
             <img class="images_4_1" src="images/4_1.webp" alt="img">
-            <div>
+            <div class="WhatYouGet">
                 <h2>Що ти отримаєш, пройшовши марафон?</h2>
                 <p>Марафон допоможе тобі зрозуміти і полюбити своє тіло, вивчити його потреби та навчити його мови.<br>
                     Впевненість у власному тілі — це ключ до якісних відносин.<br>
@@ -151,7 +163,7 @@
                     створення балансу та гармонії у своєму сексуальному житті. Готуйся до нового етапу у розкритті
                     власної сексуальності та глибоких відносин! </p>
                 <button class="openPopup_pay button">Купити</button>
-                <button class="openPopup button" >Консультація</button>
+                <button class="openPopup buttonC" >Консультація</button>
                 <div class="popup">
                     <div class="popup-content">
                         <span class="closePopup close">&times;</span>
@@ -192,29 +204,33 @@
     </section>
 </main>
 <footer>
+
+
+
+
     <div class="container flexClass">
         <div class="f1">
             <h4>Всі права захищені. Будь-яке копіювання матеріалів дозволяється тільки з погодження правовласників.</h4>
-            <h4>Designer: emily_de_morgan</h4>
+            <h4>Designer: <a href="https://www.instagram.com/emily_de_morgan/" target="_blank" title="Instagram">emily_de_morgan</a></h4>
         </div>
         <div class="f2">
             <p>
-                <a>Головна</a>
+                <a href="#section1" title="Головна">Головна</a>
             </p>
             <p>
-                <a>Про автора</a>
+                <a href="#section2" title="Про автора">Про автора</a>
             </p>
             <p>
-                <a>Для кого цей марафон?</a>
+                <a href="#section3" title="Для кого цей марафон">Для кого цей марафон?</a>
             </p>
             <p>
-                <a>Програма 7 денного марафону</a>
+                <a href="#section4" title="Програма марафону">Програма 7 денного марафону</a>
             </p>
             <p>
-                <a>Відгуки</a>
+                <a href="#section5" title="Відгуки">Відгуки</a>
             </p>
             <p>
-                <a>Що ти отримаєш, пройшовши марафон?</a>
+                <a href="#section6" title="Що ти отримаєш, пройшовши марафон?">Що ти отримаєш, пройшовши марафон?</a>
             </p>
         </div>
         <div class="f3">
@@ -222,14 +238,15 @@
             <h4>097-245-82-19</h4>
             <h5>Ми в соц. мережах</h5>
             <div>
-                <a class="socials" href="https://www.instagram.com/pavlovskaiasexolog?igsh=MW9nZDU0Z3J3YWp4eg==" target="_blank"><img src="images/socials.svg" alt="Socials"></a>
-                <a class="socials" href="viber://chat?number=+380972458219" target="_blank"><img src="images/socials_1.svg" alt="Socials"></a>
-                <a class="socials" href="https://t.me/+Dop57dDi3pwwOTNi" target="_blank"><img src="images/socials_2.svg" alt="Socials"></a>
-                <a class="socials" href="https://www.youtube.com/@pavlovskaiasexolog" target="_blank"><img src="images/socials_3.svg" alt="Socials"></a>
+                <a class="socials" href="https://www.instagram.com/pavlovskaiasexolog?igsh=MW9nZDU0Z3J3YWp4eg==" target="_blank" title="Instagram"><img src="images/socials.svg" alt="Socials"></a>
+                <a class="socials" href="viber://chat?number=+380972458219" target="_blank" title="Viber"><img src="images/socials_1.svg" alt="Socials"></a>
+                <a class="socials" href="https://t.me/+Dop57dDi3pwwOTNi" target="_blank" title="Telegram"><img src="images/socials_2.svg" alt="Socials"></a>
+                <a class="socials" href="https://www.youtube.com/@pavlovskaiasexolog" target="_blank" title="Youtube"><img src="images/socials_3.svg" alt="Socials"></a>
             </div>
         </div>
     </div>
 </footer>
+
 <script src="main.js"></script>
 </body>
 </html>

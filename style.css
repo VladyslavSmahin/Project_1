@@ -31,11 +31,6 @@ body {
     font-family: 'CeraPro-Regular', serif;
     background: var(--Background-Linear, linear-gradient(227deg, #FFF 21.59%, #F3ECE6 83.34%));
 }
-
-.section1 {
-
-}
-
 .container {
     max-width: 1240px;
     margin: auto;
@@ -165,14 +160,25 @@ h1{
     color: #FFFFFF;
     background-color: #C1164D;
 }
+.buttonC{
+    border-radius: 26px;
+    border: 1px solid var(--Colors-Raspberry, #C1164D);
+    width: 295px;
+    height: 43px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .button:hover,
 .button:active,
 .buttonC:hover,
 .buttonC:active {
-    background-color: #a1093b; /* Измените цвет фона по вашему выбору */
-    color: #fff; /* Измените цвет текста по вашему выбору */
-    border-color: transparent; /* Измените цвет бордера по вашему выбору или установите transparent, чтобы скрыть его */
+    background-color: #a1093b;
+    color: #fff;
+    border-color: transparent;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
 }
 
 .section2 {
@@ -264,7 +270,7 @@ padding-bottom: 160px;
 }
 #Clip_1 {
 position: absolute;
-    left: -77px;
+    left: -100px;
     top: -37px;
     z-index: 1
 }
@@ -282,7 +288,7 @@ position: absolute;
 }
 #Clip_4 {
     position: absolute;
-    right: -123px;
+    right: -97px;
     top: -35px;
     z-index: 1
 }
@@ -349,7 +355,12 @@ position: absolute;
 .section5 .flexClass {
     justify-content: space-between;
 }
-
+.prevSlide{
+    display: none;
+}
+.nextSlide{
+    display: none;
+}
 .review {
     padding-left: 24px;
     max-width: 300px;
@@ -562,3 +573,15 @@ footer {
     width: 120px;
     height: 120px;
 }
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

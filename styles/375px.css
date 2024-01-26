@@ -6,7 +6,7 @@
 
     #images_1 {
 
-        content: url('../images/1_111.webp');
+        content: url('../images/1_111_11zon.webp');
         width: 363px;
         height: 490px;
         flex-shrink: 0;
@@ -25,33 +25,7 @@
 
     .p1p2 {
         display: flex;
-        justify-content: space-between;
         padding-top: 20px;
-    }
-
-    .p1 {
-        display: flex;
-        width: 40%;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 16px;
-        border: 2px solid var(--Linear, #FFF);
-        background: linear-gradient(45deg, rgba(254, 238, 226, 0.20) 5.65%, rgba(200, 171, 150, 0.49) 94.35%);
-        backdrop-filter: blur(9px);
-    }
-
-    .p2 {
-        display: flex;
-        width: 40%;
-        padding: 10px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 16px;
-        border: 1px solid #C1164D;
-        backdrop-filter: blur(9px);
     }
 
     h1 {

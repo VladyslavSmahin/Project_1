@@ -253,6 +253,24 @@
         font-size: 28px;
         top: 10px;
     }
+    .close,
+    .closePopup_pay,
+    .closePopup_ty {
+        font-size: 70px;
+        color: #aaa;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        top: -5px;
+        right: 17px;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 }
 
 

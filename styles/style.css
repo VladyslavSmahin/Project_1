@@ -18,7 +18,6 @@
     src: url('../fonts/CeraPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -26,7 +25,6 @@
     src: url('../fonts/CeraPro-Italic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 body {

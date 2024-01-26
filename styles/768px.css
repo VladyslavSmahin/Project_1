@@ -1,6 +1,6 @@
 @media screen and (max-width: 769px) {
     .container {
-        max-width: 750px;
+        max-width: 730px;
         margin: auto;
     }
 
@@ -24,9 +24,11 @@
 
     #Clip_path_3 {
         width: 95px;
-        right: -335px;
+        right: -315px;
     }
-
+    .section1Content button {
+        margin-left: 100px;
+    }
     .textH2 {
         font-size: 21px;
         padding-bottom: 30px;
@@ -58,12 +60,12 @@
 
 
     #images_2, #images_3 {
-        width: 527px;
-        height: 576px;
+        width: 500px;
+        height: 550px;
     }
 
     .backForP {
-        max-width: 790px;
+        max-width: 99%;
         margin-bottom: 25px;
     }
 

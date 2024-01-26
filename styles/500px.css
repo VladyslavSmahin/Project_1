@@ -125,6 +125,7 @@
     .ul_2 {
         width: 270px;
         font-size: 14px;
+        margin-top: 5px;
     }
 
     .section1 .price {
@@ -151,8 +152,21 @@
         padding-bottom: 180px;
     }
 
+    .section2 {
+        padding-top: 524px;
+        padding-bottom: 50px;
+    }
+
     .section2 .right-column {
         display: inline;
+    }
+
+    .section4 {
+        padding-bottom: 50px;
+    }
+
+    .section5 {
+        padding-bottom: 100px;
     }
 
     #Clip_path_4 {
@@ -218,17 +232,23 @@
         width: 90%;
         font-size: 16px;
     }
+
     .section5 .flexClass {
         justify-content: space-between;
     }
+
     .section3 h2 {
         font-size: 40px;
         text-align: left;
+        line-height: 50px;
+        padding-bottom: 30px;
     }
-    .section5 h2{
+
+    .section5 h2 {
         font-size: 40px;
         text-align: left;
     }
+
     .section6 .flexClass {
         flex-direction: column;
         align-items: center;
@@ -269,7 +289,11 @@
     }
 
     .section6 {
-        padding-bottom: 100px;
+        padding-bottom: 75px;
+    }
+
+    .section6 h2 {
+        padding-bottom: 30px;
     }
 
     .slider-container {
@@ -298,6 +322,9 @@
     footer .container {
         flex-direction: column;
         width: 80%;
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
     }
 
 

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/810px.css">
     <link rel="stylesheet" href="styles/450px.css">
     <link rel="stylesheet" href="styles/375px.css">
+
 </head>
 <body>
 <main>
@@ -181,7 +182,7 @@
                         <h5> Ми зв’яжемось з вами😉</h5>
                         <label for="username"></label>
                         <input type="tel" id="username" class="phoneNumber" placeholder="Введіть ваш номер телефону" />
-                        <button class="buttonC button telegramButton openPopup_ty" >Отримати консультацію</button>
+                        <button class="buttonC telegramButton openPopup_ty" onclick="sendTelegramMessage() " >Отримати консультацію</button>
                     </div>
                 </div>
                 <div class="popup_pay">
@@ -193,7 +194,7 @@
                         <label for="username2"></label>
                         <input type="tel" id="username2" class="phoneNumber" placeholder="Введіть ваш номер телефону" />
                         <h4 class=" pricePopUp">доступ до курсу всього за 425 грн</h4>
-                        <button class="button buttonC telegramButton_pay">Перейти до оплати</button>
+                        <button class="button telegramButton_pay" onclick="sendTelegramMessage()">Перейти до оплати</button>
                     </div>
                 </div>
                 <div class="popup_ty">
@@ -205,6 +206,9 @@
                         <h5>Залишився останній крок, переходь в Telegram і ми скоро розпочнемо марафон «Я хочу себе»
                         </h5>
                     </div>
+                </div>
+                <div id="checkout">
+                    <div id="checkout_wrapper"></div>
                 </div>
             </div>
         </div>
@@ -250,6 +254,7 @@
     </div>
 </footer>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
+<script src="js/telegramApi.js"></script>
 </body>
 </html>

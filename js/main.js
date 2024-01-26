@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const telegramButton_pay = document.querySelector('.telegramButton_pay')
 
     openPopupButton.addEventListener('click', function () {
-        console.log('1111111111')
         popup.style.display = 'flex';
     });
 

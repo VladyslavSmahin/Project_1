@@ -216,12 +216,18 @@ h1 {
 }
 
 .button:hover,
-.button:active,
-.buttonC:hover,
-.buttonC:active {
+.button:active
+ {
     background-color: #a1093b;
     color: #fff;
     border-color: transparent;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+}
+.buttonC:hover,
+.buttonC:active{
+
+    border-width: 2px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
     cursor: pointer;
 }

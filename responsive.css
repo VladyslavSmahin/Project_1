@@ -16,12 +16,12 @@
 
     #images_1 {
         position: absolute;
-        background: url('images/1_1RESP.webp') no-repeat;
-        background-size: cover; /* или другой способ обработки фона, в зависимости от ваших требований */
+        background: url('images/1_11.webp') no-repeat;
+        background-size: cover;
         margin-left: -22px;
         width: 467px;
         height: 548px;
-        top: 133px; /* Используйте 'top' вместо 'padding-top' для абсолютного позиционирования */
+        top: 133px;
     }
 
 
@@ -467,7 +467,7 @@
 
     #images_1 {
 
-        content: url('images/1_2.webp');
+        content: url('images/1_111.webp');
         width: 363px;
         height: 490px;
         flex-shrink: 0;
@@ -835,7 +835,7 @@
 
     #images_1 {
 
-        content: url('images/1_2.webp');
+        content: url('images/1_111.webp');
         width: 363px;
         height: 490px;
         flex-shrink: 0;

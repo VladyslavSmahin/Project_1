@@ -98,7 +98,6 @@ document.addEventListener('DOMContentLoaded', function () {
         prevSlide();
     });
 
-// Добавьте обработчик события изменения размера окна для обновления ширины слайда
     window.addEventListener('resize', () => {
         const newTransformValue = -currentIndex * getSlideWidth();
         slider.style.transform = `translateX(${newTransformValue}px)`;

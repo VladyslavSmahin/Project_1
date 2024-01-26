@@ -15,14 +15,14 @@
 
 @font-face {
     font-family: 'CeraPro-Regular';
-    src: url('./fonts/CeraPro-Regular.woff') format('woff');
+    src: url('../fonts/CeraPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CeraPro-Italic';
-    src: url('./fonts/CeraPro-Italic.woff') format('woff');
+    src: url('../fonts/CeraPro-Italic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -47,12 +47,12 @@ body {
 
 #images_1 {
     position: absolute;
-    background: url('images/1_1.webp') no-repeat;
-    background-size: cover; /* или другой способ обработки фона, в зависимости от ваших требований */
+    background: url('../images/1_1.webp') no-repeat;
+    background-size: cover;
     margin-left: -99px;
     width: 605px;
     height: 800px;
-    top: 133px; /* Используйте 'top' вместо 'padding-top' для абсолютного позиционирования */
+    top: 133px;
 }
 
 .section1Content {

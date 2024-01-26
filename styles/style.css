@@ -47,7 +47,7 @@ body {
 
 #images_1 {
     position: absolute;
-    background: url('../images/1_1.webp') no-repeat;
+    background: url('../images/1_1_1.webp') no-repeat;
     background-size: cover;
     margin-left: -99px;
     width: 605px;
@@ -88,6 +88,8 @@ h1 {
     position: relative;
     right: -528px;
     top: -29px;
+    width: 118px;
+    height: 102px;
 }
 
 .div_ul_2 {
@@ -157,12 +159,17 @@ h1 {
     position: relative;
     left: -91px;
     top: -32px;
+    width: 112px;
+    height: 97px;
+    transform: rotate(10.123deg);
 }
 
 #Clip_path_1 {
     position: relative;
     left: 127px;
     top: 43px;
+    width: 58px;
+    height: 55px;
 }
 
 .price {
@@ -406,10 +413,14 @@ h1 {
 
 .prevSlide {
     display: none;
+    width: 84px;
+    height: 10px;
 }
 
 .nextSlide {
     display: none;
+    width: 84px;
+    height: 10px;
 }
 
 .review {
@@ -515,7 +526,10 @@ footer {
 .f3 h5 {
     padding-bottom: 19px;
 }
-
+.socials{
+    width: 37px;
+    height: 38px;
+}
 .popup,
 .popup_pay,
 .popup_ty {

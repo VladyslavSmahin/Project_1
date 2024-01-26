@@ -49,6 +49,10 @@ document.addEventListener('DOMContentLoaded', function () {
         popup_pay.style.display = 'none';
         alert('плати бабки')
     })
+
+
+
+
     const slider = document.querySelector('.slider');
     const slides = document.querySelectorAll('.slide');
     let currentIndex = 0;
@@ -57,23 +61,49 @@ document.addEventListener('DOMContentLoaded', function () {
         const newTransformValue = -index * 33.333 + '%';
         slider.style.transform = 'translateX(' + newTransformValue + ')';
     }
+
     function nextSlide() {
         currentIndex = (currentIndex + 1) % slides.length;
-        if (currentIndex === 0 ) {
-        }
-        showSlide(currentIndex);
+        const newTransformValue = -currentIndex * getSlideWidth();
+        slider.style.transform = `translateX(${newTransformValue}px)`;
+        console.log('translateX(' + newTransformValue + ')');
     }
 
     function prevSlide() {
         currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        showSlide(currentIndex);
+        const newTransformValue = -currentIndex * getSlideWidth();
+        slider.style.transform = `translateX(${newTransformValue}px)`;
     }
-    document.querySelector('.nextSlide').addEventListener('click', () =>{
-        nextSlide()
-    })
-    document.querySelector('.prevSlide').addEventListener('click', () =>{
-        prevSlide()
-    })
+
+    function getSlideWidth() {
+        let width;
+        switch(true) {
+            case window.innerWidth >= 1024:
+                width = 325;
+                break;
+            case window.innerWidth >= 768:
+                width = 400;
+                break;
+            default:
+                width = 330;
+        }
+        return width;
+    }
+
+    document.querySelector('.nextSlide').addEventListener('click', () => {
+        nextSlide();
+    });
+
+    document.querySelector('.prevSlide').addEventListener('click', () => {
+        prevSlide();
+    });
+
+// Добавьте обработчик события изменения размера окна для обновления ширины слайда
+    window.addEventListener('resize', () => {
+        const newTransformValue = -currentIndex * getSlideWidth();
+        slider.style.transform = `translateX(${newTransformValue}px)`;
+    });
+
 });
 
 

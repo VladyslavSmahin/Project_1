@@ -176,7 +176,7 @@
     .sliderButtons {
         display: flex;
         justify-content: end;
-        padding-bottom: 10px;
+        align-items: center;
         margin-right: 20px;
     }
 

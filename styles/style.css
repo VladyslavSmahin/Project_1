@@ -458,6 +458,10 @@ h1 {
     margin-bottom: 30px;
     padding-left: 20px;
 }
+.headSlider{
+    display: flex;
+    justify-content: space-between;
+}
 .slide2 p{
 padding-bottom: 60px;
 }

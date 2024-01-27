@@ -78,7 +78,7 @@ body {
 }
 
 h1 {
-    color: var(--Colors-Dark, #120001);
+    color: #120001;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;

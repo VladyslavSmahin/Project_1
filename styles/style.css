@@ -86,7 +86,9 @@ h1 {
     position: absolute;
     margin-left: 25px;
 }
-
+.H1{
+    margin-bottom: 15px;
+}
 #Clip_path_3 {
     position: relative;
     right: -528px;

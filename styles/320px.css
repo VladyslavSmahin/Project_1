@@ -1,14 +1,14 @@
 @media screen and (max-width: 321px) {
     .container {
-        max-width: 290px;
+        max-width: 270px;
         margin: auto;
     }
 
     #images_1 {
 
         content: url('../images/1_111_11zon.webp');
-        width: 303px;
-        height: 430px;
+        width: 280px;
+        height: 410px;
         flex-shrink: 0;
         margin-left: 0px;
         top: 690px;
@@ -41,7 +41,7 @@
 
     #Clip_path_1 {
         position: relative;
-        left: 160px;
+        left: 145px;
         top: 80px;
         z-index: 1;
     }
@@ -55,8 +55,8 @@
 
     #Clip_path_3 {
         width: 62px;
-        right: -240px;
-        top: 3px;
+        right: -231px;
+        top: -8px;
     }
 
     .textH2 {

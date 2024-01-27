@@ -84,6 +84,9 @@ document.addEventListener('DOMContentLoaded', function () {
             case window.innerWidth >= 768:
                 width = 400;
                 break;
+            case window.innerWidth >= 320:
+                width = 290;
+                break;
             default:
                 width = 330;
         }

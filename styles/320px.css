@@ -1,0 +1,376 @@
+@media screen and (max-width: 321px) {
+    .container {
+        max-width: 290px;
+        margin: auto;
+    }
+
+    #images_1 {
+
+        content: url('../images/1_111_11zon.webp');
+        width: 303px;
+        height: 430px;
+        flex-shrink: 0;
+        margin-left: 0px;
+        top: 690px;
+    }
+
+    .section1Content {
+        left: 0;
+        top: 0;
+    }
+
+    #start19 {
+        display: none;
+    }
+
+    .p1p2 {
+
+        display: flex;
+        padding-top: 20px;
+    }
+    .p1, .p2{
+        font-size: 16px;
+        text-align: center;
+    }
+    h1 {
+        margin-left: 15px;
+        padding-top: 57px;
+        font-size: 30px;
+        z-index: 10;
+    }
+
+    #Clip_path_1 {
+        position: relative;
+        left: 160px;
+        top: 80px;
+        z-index: 1;
+    }
+
+    #Clip_path_2 {
+        position: relative;
+        left: 4px;
+        top: -35px;
+        width: 84px;
+    }
+
+    #Clip_path_3 {
+        width: 62px;
+        right: -240px;
+        top: 3px;
+    }
+
+    .textH2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .italic_text {
+        margin-top: -20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 16px;
+        font-size: 40px;
+    }
+
+    .textH2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #images_5 {
+        display: none;
+    }
+
+    .ul_1 {
+        margin-left: 24px;
+        position: absolute;
+        z-index: 5;
+        font-size: 13px;
+        width: 248px;
+        padding: 10px 2px 10px 5px;
+    }
+
+    .div_ul_2 {
+        top: 20px;
+        margin-left: 26px;
+        z-index: 5;
+
+    }
+
+    .ul_2 {
+        width: 248px;
+        font-size: 13px;
+        padding: 10px 2px 10px 5px;
+    }
+
+    .section1 .price {
+        margin-left: 0;
+        text-align: center;
+    }
+    .section1Content button {
+        margin-left: 38px;
+    }
+    .button, .buttonC{
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .section2 {
+        padding-top: 480px;
+    }
+
+    .left-column h2 {
+        font-size: 30px;
+        position: initial;
+        line-height: 0;
+    }
+    .left-column p:first-of-type {
+        margin-top: -80px;
+    }
+
+    .left-column p, .left-column h3 {
+        font-size: 20px;
+    }
+
+    .left-column p:last-of-type {
+        padding-bottom: 180px;
+    }
+
+    .section2 .right-column {
+        display: inline;
+    }
+
+    #Clip_path_4 {
+        display: none;
+    }
+
+    #images_2, #images_3 {
+        width: 203px;
+        height: 230px;
+    }
+
+    #images_2 {
+        margin-left: 4px;
+    }
+
+    .section3 button {
+        width: 90%;
+    }
+
+    #images_3 {
+        margin-left: 81px;
+        margin-top: 192px;
+    }
+
+    .backForP {
+        max-width: 99%;
+    }
+
+    .backForP p {
+        color: var(--Colors-Dark, #120001);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #Clip_1 {
+        left: -19px;
+        top: 100px;
+        width: 50%;
+    }
+
+    #Clip_2 {
+        right: 10px;
+        top: 178px;
+        width: 60%;
+    }
+
+    #Clip_3 {
+        right: -10px;
+        bottom: -43px;
+    }
+
+    #Clip_4 {
+        right: 118px;
+        top: 305px;
+    }
+    .section3 {
+        margin-bottom: 54px;
+    }
+    .section3 h2{
+        font-size: 30px;
+        padding-bottom: 0;
+    }
+    .section4 h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .program{
+        padding-bottom: 40px;
+    }
+    .program h3 {
+        width: 90%;
+        font-size: 16px;
+    }
+    .section5 h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .section6 .flexClass {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section5 {
+        padding-bottom: 80px;
+    }
+
+    .section5 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .images_4_1 {
+        width: 300px;
+        height: 420px;
+        padding-right: 0;
+        padding-bottom: 60px;
+    }
+
+    .WhatYouGet, .WhatYouGet h2, .WhatYouGet p {
+        max-width: 100%;
+    }
+
+    .WhatYouGet h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .WhatYouGet p {
+        font-size: 20px;
+    }
+
+    .section6 .openPopup_pay {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .WhatYouGet .buttonC {
+        margin-left: 20px;
+    }
+
+    .section6 {
+        padding-bottom: 100px;
+    }
+
+    .slider-container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        flex: 0 0 90%;
+        box-sizing: border-box;
+        margin: 0 15px;
+    }
+
+    footer .container {
+        flex-direction: column;
+        width: 80%;
+    }
+
+
+    .f1 h5:first-of-type {
+        max-width: 257px;
+        padding-bottom: 50px;
+    }
+
+    .f1 {
+        order: 3;
+    }
+
+    .f2 {
+        padding-right: 0;
+        padding-bottom: 60px;
+        order: 1;
+    }
+
+    .f3 {
+        order: 2;
+        padding-bottom: 58px;
+    }
+
+    .f3 h4 {
+        padding-bottom: 58px;
+    }
+
+    .popup,
+    .popup_pay,
+    .popup_ty {
+        width: 80%;
+        height: 375px;
+        justify-content: center;
+    }
+
+    .popup h3,
+    .popup_pay h3,
+    .popup_ty h3 {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 30px;
+    }
+    .popup h5:last-of-type, .popup_pay h5:last-of-type, .popup_ty h5:last-of-type {
+        padding-bottom: 20px;
+        margin-right: 24px;
+    }
+    .popup h5,
+    .popup_pay h5,
+    .popup_ty h5 {
+        font-size: 16px;
+        max-width: 320px;
+        font-weight: 400;
+    }
+
+    .phoneNumber {
+        width: 70%;
+        margin-bottom: 16px;
+        margin-left: 30px;
+    }
+
+    .phoneNumber::placeholder {
+        font-size: 14px;
+    }
+    .pricePopUp {
+        font-size: 16px;
+    }
+
+    .popup-content,
+    .popup-content_pay,
+    .popup-content_ty {
+        width: 320px;
+    }
+
+    .popup-content_ty > * {
+        padding-bottom: 8px;
+    }
+    .popup-content .phoneNumber {
+        width: 70%;
+        margin-left: 31px;
+    }
+    .WhatYouGet .buttonC {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .close,
+    .closePopup_pay,
+    .closePopup_ty {
+        font-size: 16px;
+        top: 10px;
+    }
+}

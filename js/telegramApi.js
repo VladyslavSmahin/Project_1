@@ -3,11 +3,14 @@
     const token = '6840137458:AAEtYjNRyFHSvIKOtzVMRzFXggIybU2QA-4';
     const chatId = '-1002023853204';
     const phoneNumber = document.getElementById('username').value;
+    const phoneNumber2 = document.getElementById('username2').value;
+        const phoneNumberInput = document.getElementById('username');
+        const phoneNumber2Input = document.getElementById('username2');
 
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
-    const message = `Новий запит на консультацію! Номер телефона: ${phoneNumber}`;
+    const message = `Новий запит на консультацію! Номер телефона: ${phoneNumber} ${phoneNumber2}`;
     const data = { chat_id: chatId, text: message };
-console.log(phoneNumber)
+console.log(message)
     fetch(url, {
     method: 'POST',
     headers: {
@@ -19,7 +22,9 @@ console.log(phoneNumber)
     .then(data => {
     if (data.ok) {
     alert('Запит успішно відправлено в Телеграм!');
-    // Дополнительные действия после успешной отправки...
+        console.log(message)
+        phoneNumberInput.value = '';
+        phoneNumber2Input.value = '';
 } else {
     alert('Помилка запиту');
 }

@@ -60,7 +60,7 @@
 
     h1 {
         margin-left: 15px;
-        padding-top: 57px;
+        padding-top: 23px;
         font-size: 38px;
         z-index: 10;
     }
@@ -81,20 +81,25 @@
 
     #Clip_path_3 {
         width: 62px;
+        height: 62px;
         right: -284px;
         top: 3px;
     }
-
+    #Clip_path_4 {
+        width: 62px;
+        height: 62px;
+    }
     .textH2 {
         font-size: 21px;
         padding-bottom: 30px;
     }
 
     .italic_text {
-        margin-top: -20px;
+        margin-top: 10px;
         font-weight: bold;
         margin-bottom: 20px;
         margin-left: 16px;
+        font-size: 45px;
     }
 
     .textH2 {

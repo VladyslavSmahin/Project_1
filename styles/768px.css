@@ -20,11 +20,17 @@
         margin-left: 0;
         padding-top: 60px;
         font-size: 48px;
+        z-index: 2;
     }
 
     #Clip_path_3 {
         width: 95px;
+        height: 95px;
         right: -315px;
+        z-index: 1;
+    }
+    #Clip_path_4{
+        width: 15%;
     }
     .section1Content button {
         margin-left: 100px;
@@ -35,7 +41,7 @@
     }
 
     .italic_text {
-        margin-top: 18px;
+        margin-top: 50px;
         font-weight: bold;
         margin-bottom: 20px;
     }
@@ -57,7 +63,9 @@
     .div_ul_2 {
         top: 20px;
     }
-
+.section2{
+    margin-top: -119px;
+}
 
     #images_2, #images_3 {
         width: 500px;

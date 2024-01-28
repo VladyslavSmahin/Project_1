@@ -44,10 +44,10 @@ body {
 .flexClass {
     display: flex;
 }
-.link-to-preload {
+/*.link-to-preload {
     display: none;
     background: url('../images/1_1_1.webp') center center no-repeat;
-}
+}*/
 #images_1 {
     position: absolute;
     background: url('../images/1_1.webp') no-repeat;

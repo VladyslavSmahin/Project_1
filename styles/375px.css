@@ -12,6 +12,7 @@
         flex-shrink: 0;
         margin-left: -9px;
         top: 690px;
+        background-image: none;
     }
 
     .section1Content {
@@ -29,12 +30,17 @@
     }
 
     h1 {
-        margin-left: 15px;
-        padding-top: 57px;
-        font-size: 38px;
+        margin-left: 33px;
+        font-size: 32px;
         z-index: 10;
     }
-
+    .italic_text {
+        margin-top: 10px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        font-size: 40px;
+    }
     #Clip_path_1 {
         position: relative;
         left: 206px;
@@ -52,7 +58,7 @@
     #Clip_path_3 {
         width: 62px;
         right: -284px;
-        top: 3px;
+        top: 18px;
     }
 
     .textH2 {
@@ -60,12 +66,7 @@
         padding-bottom: 30px;
     }
 
-    .italic_text {
-        margin-top: -20px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        margin-left: 16px;
-    }
+
 
     .textH2 {
         text-align: center;
@@ -240,7 +241,12 @@
         overflow: hidden;
         width: 100%;
     }
-
+    .prevSlide {
+        width: 40px;
+    }
+    .nextSlide {
+        width: 40px;
+    }
     .slider {
         display: flex;
         transition: transform 0.5s ease-in-out;

@@ -33,12 +33,17 @@
         text-align: center;
     }
     h1 {
-        margin-left: 15px;
-        padding-top: 57px;
-        font-size: 30px;
+        margin-left: 33px;
+        font-size: 28px;
         z-index: 10;
     }
-
+    .italic_text {
+        font-size: 35px;
+        margin-top: 10px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-left: 16px;
+    }
     #Clip_path_1 {
         position: relative;
         left: 145px;
@@ -64,17 +69,10 @@
         padding-bottom: 30px;
     }
 
-    .italic_text {
-        margin-top: -20px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        margin-left: 16px;
-        font-size: 40px;
-    }
 
     .textH2 {
         text-align: center;
-        font-size: 30px;
+        font-size: 21px;
     }
 
     #images_5 {
@@ -276,6 +274,11 @@
         flex: 0 0 90%;
         box-sizing: border-box;
         margin: 0 15px;
+    }
+    .sliderButtons {
+        display: flex;
+        justify-content: end;
+        padding-bottom: 0;
     }
 
     footer .container {

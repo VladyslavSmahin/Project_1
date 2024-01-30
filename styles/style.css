@@ -28,8 +28,9 @@
 }
 
 body {
-    font-family: 'CeraPro-Regular', serif;
+    font-family: 'CeraPro-Regular', sans-serif;
     background: var(--Background-Linear, linear-gradient(227deg, #FFF 21.59%, #F3ECE6 83.34%));
+    overflow-x: hidden;
 }
 
 .section1 {
@@ -50,7 +51,7 @@ body {
 }*/
 #images_1 {
     position: absolute;
-    background: url('../images/1_1.webp') no-repeat;
+    background: url('../images/Group-2.webp') no-repeat;
     background-size: cover;
     margin-left: -99px;
     width: 605px;
@@ -256,6 +257,8 @@ h1 {
     top: 54px;
     left: 314px;
     padding-top: 85px;
+    max-width: 14%;
+    height: auto;
 }
 
 .info {
@@ -426,12 +429,14 @@ h1 {
     display: none;
     width: 84px;
     height: 10px;
+    cursor: pointer;
 }
 
 .nextSlide {
     display: none;
     width: 84px;
     height: 10px;
+    cursor: pointer;
 }
 
 .review {
@@ -512,7 +517,9 @@ footer {
     text-align: left;
     padding: 40px 0 20px;
 }
-
+footer .flexClass{
+    justify-content: space-between;
+}
 .f1 {
     max-width: 399px;
     padding-right: 126px;
@@ -532,13 +539,17 @@ footer {
 
 .f3 h3 {
     padding-bottom: 8px;
+    font-size: 14px;
 }
 
 .f3 h4 {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .f3 h5 {
+    padding-bottom: 18px;
+}
+.divSocials{
     padding-bottom: 19px;
 }
 .socials{
@@ -556,8 +567,8 @@ footer {
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 800px;
-    height: 720px;
+    width: 555px;
+    max-height: 650px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -566,7 +577,12 @@ footer {
     background: #FFF;
     z-index: 99;
 }
-
+.popup-content,
+.popup-content_pay,
+.popup-content_ty {
+    text-align: center;
+    max-width: 90%;
+}
 .pricePopUp {
     color: var(--Colors-Raspberry, #C1164D);
     font-size: 20px;
@@ -585,8 +601,9 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 8px;
-    font-size: 64px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 45px;
 }
 
 .popup h5,
@@ -616,9 +633,9 @@ footer {
     border-radius: 26px;
     border: 1px solid #393939;
     display: flex;
-    width: 575px;
+    width: 80%;
     height: 70px;
-    margin-left: 97px;
+    margin-left: 44px;
     max-height: 30px;
     margin-bottom: 16px;
     align-items: center;
@@ -627,24 +644,35 @@ footer {
     flex-shrink: 0;
 }
 
+.phoneNumber.invalid {
+  border-color: red;
+}
+
 .popup-content .phoneNumber {
-    width: 600px;
+    width: 67%;
     margin-left: 52px;
+}
+.popup{
+    width: 470px;
+}
+.popup .buttonC{
+    margin-bottom: 40px;
+}
+.popup h3{
+margin-left: -145px;
+    padding-top: 20px;
 }
 
 .phoneNumber::placeholder {
     color: #4C4C4C;
-    font-size: 24px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     opacity: 0.4;
     line-height: normal;
 }
-
-.popup-content,
-.popup-content_pay,
-.popup-content_ty {
-    text-align: center;
+.popup .button, .popup-content_pay .button{
+    margin-bottom: 10px;
 }
 
 .popup-content h3 {

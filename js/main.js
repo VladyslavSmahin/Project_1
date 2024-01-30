@@ -16,10 +16,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     openPopupButton.addEventListener('click', function () {
         popup.style.display = 'flex';
+        popup.classList.add('show');
     });
 
     closePopupButton.addEventListener('click', function () {
         popup.style.display = 'none';
+        popup.classList.remove('show');
     });
 
 
@@ -27,11 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
     openPopupButtons_pay_Array.forEach(function (button) {
         button.addEventListener('click', function () {
             popup_pay.style.display = 'flex';
+            popup_pay.classList.add('show');
         });
     });
 
     closePopupButton_pay.addEventListener('click', function () {
         popup_pay.style.display = 'none';
+        popup_pay.classList.remove('show');
     });
 
 
@@ -46,13 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     telegramButton_pay.addEventListener('click', function (){
-        popup_pay.style.display = 'none';
-        alert('плати бабки')
+        // popup_pay.style.display = 'none';
+        // alert('плати бабки')
     })
-
-
-
-
     const slider = document.querySelector('.slider');
     const slides = document.querySelectorAll('.slide');
     let currentIndex = 0;
@@ -84,8 +84,8 @@ document.addEventListener('DOMContentLoaded', function () {
             case window.innerWidth >= 768:
                 width = 400;
                 break;
-            case window.innerWidth >= 320:
-                width = 290;
+            case window.innerWidth <= 320:
+                width = 270;
                 break;
             default:
                 width = 330;
@@ -105,7 +105,27 @@ document.addEventListener('DOMContentLoaded', function () {
         const newTransformValue = -currentIndex * getSlideWidth();
         slider.style.transform = `translateX(${newTransformValue}px)`;
     });
+    let touchStartX = 0;
+    let touchEndX = 0;
 
+    slider.addEventListener('touchstart', (event) => {
+        touchStartX = event.touches[0].clientX;
+    });
+
+    slider.addEventListener('touchmove', (event) => {
+        touchEndX = event.touches[0].clientX;
+    });
+
+    slider.addEventListener('touchend', () => {
+        const touchDiff = touchStartX - touchEndX;
+        const sensitivity = 50; // Чувствительность свайпа
+
+        if (touchDiff > sensitivity) {
+            nextSlide();
+        } else if (touchDiff < -sensitivity) {
+            prevSlide();
+        }
+    });
 });
 
 

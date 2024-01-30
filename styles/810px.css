@@ -148,7 +148,11 @@
     }
 
     .f2 {
-        padding-right: 59px;
+        padding-right: 1px;
+    }
+
+    .f3 {
+        padding-left: 15px;
     }
 
     .popup,

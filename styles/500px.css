@@ -147,12 +147,18 @@
 
     .left-column h2 {
         font-size: 40px;
+        line-height: 140px;
     }
 
     .left-column p, .left-column h3 {
         font-size: 20px;
     }
-
+    .left-column h3{
+        padding-top: 0;
+    }
+    .left-column p:first-of-type {
+        padding-bottom: 20px;
+    }
     .left-column p:last-of-type {
         padding-bottom: 180px;
     }
@@ -350,7 +356,8 @@
 
     .f3 {
         order: 2;
-        padding-bottom: 58px;
+        padding-bottom: 25px;
+        padding-left: 0;
     }
 
     .f3 h4 {

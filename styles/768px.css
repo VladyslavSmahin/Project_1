@@ -29,12 +29,15 @@
         right: -315px;
         z-index: 1;
     }
-    #Clip_path_4{
+
+    #Clip_path_4 {
         width: 15%;
     }
+
     .section1Content button {
         margin-left: 100px;
     }
+
     .textH2 {
         font-size: 21px;
         padding-bottom: 30px;
@@ -63,9 +66,10 @@
     .div_ul_2 {
         top: 20px;
     }
-.section2{
-    margin-top: -119px;
-}
+
+    .section2 {
+        margin-top: -119px;
+    }
 
     #images_2, #images_3 {
         width: 500px;
@@ -122,12 +126,15 @@
     .WhatYouGet, .WhatYouGet h2, .WhatYouGet p {
         max-width: 100%;
     }
-    .section5 h2{
+
+    .section5 h2 {
         font-size: 40px;
     }
-    .section5 h2{
+
+    .section5 h2 {
         font-size: 50px;
     }
+
     .section6 .openPopup_pay {
         margin-left: 90px;
     }
@@ -150,10 +157,6 @@
 
     .f1 h5:first-of-type {
         max-width: 257px;
-    }
-
-    .f2 {
-        padding-right: 59px;
     }
 
     .popup,

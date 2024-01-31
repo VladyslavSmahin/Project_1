@@ -18,31 +18,13 @@
 
     h1 {
         margin-left: 0;
-        padding-top: 60px;
-        font-size: 48px;
-    }
-    .H1{
-        margin-bottom: 15px;
+        font-size: 40px;
     }
     #Clip_path_3 {
-        width: 95px;
-        right: -335px;
+        width: 67px;
+        height: 67px;
     }
 
-    .textH2 {
-        font-size: 21px;
-        padding-bottom: 30px;
-    }
-
-    .italic_text {
-        margin-top: 18px;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-
-    #images_5 {
-        display: none;
-    }
 
     .ul_1 {
         padding-bottom: 10px;
@@ -58,6 +40,20 @@
         top: 20px;
     }
 
+    .textH2 {
+        font-size: 21px;
+        padding-bottom: 30px;
+    }
+
+    .italic_text {
+        margin-top: 34px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #images_5 {
+        display: none;
+    }
 
     #images_2, #images_3 {
         width: 527px;

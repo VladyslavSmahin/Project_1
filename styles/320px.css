@@ -19,70 +19,21 @@
         top: 0;
     }
 
-    #start19 {
-        display: none;
-    }
-
-    .p1p2 {
-
-        display: flex;
-        padding-top: 20px;
-    }
-    .p1, .p2{
-        font-size: 16px;
-        text-align: center;
-    }
-    .italic_text {
-        font-size: 35px;
-        margin-top: 0;
-        font-weight: bold;
-        margin-bottom: 20px;
-        margin-left: 26px;
-    }
-    #Clip_path_1 {
-        position: relative;
-        left: 145px;
-        top: 80px;
-        z-index: 1;
-    }
-
-    #Clip_path_2 {
-        position: relative;
-        left: 4px;
-        top: -35px;
-        width: 84px;
-    }
     h1 {
         margin-left: 18px;
         padding-top: 23px;
         font-size: 30px;
     }
-    .H1 {
-        margin-bottom: 3px;
-    }
+
     #Clip_path_3 {
+        margin-top: -1px;
         margin-left: -50px;
         width: 42px;
         height: 42px;
     }
-    .textH2 {
-        font-size: 30px;
-        padding-bottom: 30px;
-    }
 
-
-    .textH2 {
-        text-align: center;
-        font-size: 21px;
-    }
-
-    #images_5 {
-        display: none;
-    }
-
-    .ul_1 {
-        margin-left: -60px;
-        position: static;
+    .italic_text {
+        font-size: 35px;
     }
 
     .div_ul_2 {
@@ -96,16 +47,56 @@
         width: 248px;
         font-size: 13px;
         padding: 10px 2px 10px 5px;
+        margin-top: 46px;
+    }
+
+    #start19 {
+        display: none;
+    }
+
+    .p1p2 {
+
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .p1, .p2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #Clip_path_1 {
+        left: 174px;
+    }
+
+    #Clip_path_2 {
+        position: relative;
+        left: 13px;
+        top: -35px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .textH2 {
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 21px;
+    }
+
+    #images_5 {
+        display: none;
     }
 
     .section1 .price {
         margin-left: 29px;
         text-align: center;
     }
+
     .section1Content button {
         margin-left: 38px;
     }
-    .button, .buttonC{
+
+    .button, .buttonC {
         width: 80%;
         font-size: 16px;
     }
@@ -119,6 +110,7 @@
         position: initial;
         line-height: 0;
     }
+
     .left-column p:first-of-type {
         margin-top: -80px;
     }
@@ -188,28 +180,35 @@
         right: 118px;
         top: 305px;
     }
+
     .section3 {
         margin-bottom: 54px;
     }
-    .section3 h2{
+
+    .section3 h2 {
         font-size: 30px;
         padding-bottom: 0;
     }
+
     .section4 h2 {
         font-size: 30px;
         line-height: 40px;
     }
-    .program{
+
+    .program {
         padding-bottom: 40px;
     }
+
     .program h3 {
         width: 90%;
         font-size: 16px;
     }
+
     .section5 h2 {
         font-size: 30px;
         padding-bottom: 10px;
     }
+
     .section6 .flexClass {
         flex-direction: column;
         align-items: center;
@@ -272,6 +271,7 @@
         box-sizing: border-box;
         margin: 0 15px;
     }
+
     .sliderButtons {
         display: flex;
         justify-content: end;
@@ -324,10 +324,12 @@
         font-weight: 700;
         padding-left: 30px;
     }
+
     .popup h5:last-of-type, .popup_pay h5:last-of-type, .popup_ty h5:last-of-type {
         padding-bottom: 20px;
         margin-right: 24px;
     }
+
     .popup h5,
     .popup_pay h5,
     .popup_ty h5 {
@@ -345,6 +347,7 @@
     .phoneNumber::placeholder {
         font-size: 14px;
     }
+
     .pricePopUp {
         font-size: 16px;
     }
@@ -358,10 +361,12 @@
     .popup-content_ty > * {
         padding-bottom: 8px;
     }
+
     .popup-content .phoneNumber {
         width: 70%;
         margin-left: 31px;
     }
+
     .WhatYouGet .buttonC {
         margin-left: 20px;
         margin-top: 10px;

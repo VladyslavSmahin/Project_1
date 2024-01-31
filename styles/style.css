@@ -45,10 +45,6 @@ body {
 .flexClass {
     display: flex;
 }
-/*.link-to-preload {
-    display: none;
-    background: url('../images/1_1_1.webp') center center no-repeat;
-}*/
 #images_1 {
     position: absolute;
     background: url('../images/Group-2.webp') no-repeat;
@@ -56,7 +52,7 @@ body {
     margin-left: -99px;
     width: 605px;
     height: 800px;
-    top: 133px;
+    top: 63px;
 }
 
 .section1Content {
@@ -77,29 +73,59 @@ body {
 .p1p2 {
     display: none;
 }
-
+.h1_clip3{
+    display: flex;
+}
 h1 {
     color: #120001;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    position: absolute;
     margin-left: 25px;
-}
-.H1{
-    margin-bottom: 15px;
+    order: 1;
+    z-index: 2;
 }
 #Clip_path_3 {
-    position: relative;
-    right: -528px;
-    top: -29px;
     width: 118px;
     height: 102px;
+    order: 2;
+    z-index: 1;
+    margin-left: -17px;
+    margin-top: -6px;
 }
 
 .div_ul_2 {
     position: relative;
+}
+
+.ul_1 {
+    position: absolute;
+}
+
+.ul_1, .ul_2 {
+    list-style: none;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid var(--Linear, #FFF);
+    background: var(--Blobs-Ghost, linear-gradient(45deg, rgba(225, 208, 195, 0.20) 5.65%, rgba(255, 255, 255, 0.49) 94.35%));
+    backdrop-filter: blur(9px);
+    color: var(--Colors-Dark, #120001);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.ul_2 {
+    margin-top: 10px;
+    margin-left: 275px;
+    padding-right: 5px;
+    border-radius: 16px;
+    border: 2px solid var(--Linear, #FFF);
+    background: var(--Blobs-Cappucino, linear-gradient(331deg, #E9DCD3 -13.18%, rgba(255, 255, 255, 0.49) 88.44%));
+    backdrop-filter: blur(9px);
 }
 
 #images_5 {
@@ -130,35 +156,6 @@ h1 {
     text-align: left;
     padding-bottom: 12px;
     color: #120001;
-}
-
-.ul_1 {
-    position: absolute;
-}
-
-.ul_1, .ul_2 {
-    list-style: none;
-    padding: 20px;
-    border-radius: 16px;
-    border: 2px solid var(--Linear, #FFF);
-    background: var(--Blobs-Ghost, linear-gradient(45deg, rgba(225, 208, 195, 0.20) 5.65%, rgba(255, 255, 255, 0.49) 94.35%));
-    backdrop-filter: blur(9px);
-    color: var(--Colors-Dark, #120001);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    flex-shrink: 0;
-}
-
-.ul_2 {
-    margin-top: 10px;
-    margin-left: 275px;
-    padding-right: 5px;
-    border-radius: 16px;
-    border: 2px solid var(--Linear, #FFF);
-    background: var(--Blobs-Cappucino, linear-gradient(331deg, #E9DCD3 -13.18%, rgba(255, 255, 255, 0.49) 88.44%));
-    backdrop-filter: blur(9px);
 }
 
 #Clip_path_2 {

@@ -34,6 +34,9 @@
         margin-left: 0;
         font-size: 40px;
     }
+    .div_ul1{
+        margin-left: -215px;
+    }
     .div_ul_2 {
         top: 20px;
         margin-left: 0;
@@ -94,9 +97,7 @@
         border: 1px solid #C1164D;
         backdrop-filter: blur(9px);
     }
-    .flexClass_ul1{
-        margin-left: -215px;
-    }
+
     #Clip_path_1 {
         position: relative;
         top: 80px;
@@ -133,7 +134,12 @@
         display: none;
     }
 
-
+    .div_ul_2{
+        position: static;
+    }
+    .ul_2{
+        position: static;
+    }
 
     .section1 .price {
         margin-left: 42px;

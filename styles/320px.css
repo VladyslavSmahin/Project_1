@@ -5,8 +5,6 @@
     }
 
     #images_1 {
-
-        content: url('../images/1_111_11zon.webp');
         width: 280px;
         height: 410px;
         flex-shrink: 0;

@@ -51,12 +51,12 @@ body {
 }
 #images_1 {
     position: absolute;
-    background: url('../images/1.webp') no-repeat;
+    background: url('../images/9.webp') no-repeat;
     background-size: cover;
     margin-left: -99px;
     width: 605px;
     height: 800px;
-    top: 63px;
+    top: 0;
 }
 
 .section1Content {

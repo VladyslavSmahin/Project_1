@@ -3,5 +3,8 @@
         max-width: 340px;
         margin: auto;
     }
+    #images_1 {
+        margin-left: -45px;
+    }
 
 }

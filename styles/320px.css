@@ -8,8 +8,7 @@
         width: 280px;
         height: 410px;
         flex-shrink: 0;
-        margin-left: 0px;
-        top: 690px;
+        margin-left: -30px;
     }
 
     .section1Content {

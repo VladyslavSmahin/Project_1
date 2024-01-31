@@ -118,12 +118,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     slider.addEventListener('touchend', () => {
         const touchDiff = touchStartX - touchEndX;
-        const sensitivity = 50;
+        const sensitivity = 100;
 
-        if (touchDiff > sensitivity) {
-            nextSlide();
-        } else if (touchDiff < -sensitivity) {
-            prevSlide();
+        if (Math.abs(touchDiff) > sensitivity) {
+            if (touchDiff > 0) {
+                nextSlide();
+            } else {
+                prevSlide();
+            }
         }
     }, { passive: true });
 });

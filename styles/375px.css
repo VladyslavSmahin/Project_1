@@ -29,11 +29,7 @@
         padding-top: 20px;
     }
 
-    h1 {
-        margin-left: 33px;
-        font-size: 32px;
-        z-index: 10;
-    }
+
     .italic_text {
         margin-top: 10px;
         font-weight: bold;
@@ -55,12 +51,6 @@
         width: 84px;
     }
 
-    #Clip_path_3 {
-        width: 62px;
-        right: -284px;
-        top: 18px;
-    }
-
     .textH2 {
         font-size: 21px;
         padding-bottom: 30px;
@@ -77,20 +67,15 @@
     }
 
     .ul_1 {
-        position: absolute;
+        position: static;
         z-index: 5;
+        margin-left: -60px;
     }
 
     .div_ul_2 {
         top: 20px;
         margin-left: 26px;
         z-index: 5;
-    }
-
-    .ul_1 {
-        width: 253px;
-        margin-left: 30px;
-        font-size: 14px;
     }
 
     .ul_2 {
@@ -107,7 +92,7 @@
     }
 
     .section2 {
-        padding-top: 570px;
+        padding-top: 0;
     }
 
     .left-column h2 {

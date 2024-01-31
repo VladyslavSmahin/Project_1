@@ -4,28 +4,33 @@
         margin: auto;
     }
 
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .section1Content {
+        position: static;
         padding-left: 0;
+        order: 1;
+        top: -0;
     }
 
     #images_1 {
-
+        order: 2;
+        position: static;
         content: url('../images/1_111_11zon.webp');
         width: 363px;
         height: 490px;
         flex-shrink: 0;
         margin-left: -9px;
-        top: 678px;
-    }
-
-    .section1Content {
-        left: 0;
-        top: 0;
     }
 
     #start19 {
         display: none;
     }
+
+
 
     .p1p2 {
         display: flex;
@@ -59,12 +64,18 @@
     }
 
     h1 {
-        margin-left: 15px;
+        margin-left: 28px;
         padding-top: 23px;
-        font-size: 38px;
+        font-size: 35px;
         z-index: 10;
+        position: static;
     }
-
+    #Clip_path_3 {
+        position: static;
+        margin-left: -50px;
+        width: 62px;
+        height: 62px;
+    }
     #Clip_path_1 {
         position: relative;
         left: 206px;
@@ -79,12 +90,7 @@
         width: 84px;
     }
 
-    #Clip_path_3 {
-        width: 62px;
-        height: 62px;
-        right: -284px;
-        top: 3px;
-    }
+
 
     #Clip_path_4 {
         width: 62px;
@@ -112,11 +118,6 @@
         display: none;
     }
 
-    .ul_1 {
-        position: absolute;
-        z-index: 5;
-    }
-
     .div_ul_2 {
         top: 20px;
         margin-left: 26px;
@@ -138,15 +139,13 @@
     .section1 .price {
         margin-left: 42px;
     }
-
+    .section2 {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
     .section1Content button {
         margin-left: 25px;
     }
-
-    .section2 {
-        padding-top: 570px;
-    }
-
     .left-column h2 {
         font-size: 40px;
         line-height: 140px;
@@ -166,11 +165,6 @@
 
     .left-column p:last-of-type {
         padding-bottom: 180px;
-    }
-
-    .section2 {
-        padding-top: 524px;
-        padding-bottom: 50px;
     }
 
     .section2 .right-column {
@@ -399,15 +393,19 @@
         max-width: 320px;
         font-weight: 400;
     }
-    .popup h5{
+
+    .popup h5 {
         padding-left: 7px;
     }
+
     .popup_ty h3 {
         margin-left: -23px;
     }
+
     .popup_ty h5 {
         margin-left: -7px;
     }
+
     .popup .buttonC {
         margin-left: -13px;
     }

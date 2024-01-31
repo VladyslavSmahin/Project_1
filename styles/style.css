@@ -22,11 +22,15 @@
 
 @font-face {
     font-family: 'CeraPro-Italic';
-    src: url('../fonts/CeraPro-Italic.woff') format('woff');
-    font-weight: normal;
+    src: url('../fonts/Fontspring-DEMO-cerapro-bolditalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CeraPro-Bold';
+    src: url('../fonts/CeraPro-Regular.woff') format('woff');
     font-style: normal;
 }
-
 body {
     font-family: 'CeraPro-Regular', sans-serif;
     background: var(--Background-Linear, linear-gradient(227deg, #FFF 21.59%, #F3ECE6 83.34%));
@@ -77,6 +81,7 @@ body {
     display: flex;
 }
 h1 {
+    font-family: 'CeraPro-Bold', sans-serif;
     color: #120001;
     font-size: 64px;
     font-style: normal;
@@ -438,7 +443,7 @@ h1 {
 
 .review {
     max-width: 300px;
-    max-height: 285px;
+    max-height: 320px;
     border-radius: 26px;
     background: var(--Blobs-Ghost, linear-gradient(45deg, rgba(225, 208, 195, 0.20) 5.65%, rgba(255, 255, 255, 0.49) 94.35%));
 }
@@ -457,7 +462,7 @@ h1 {
 }
 
 .section5 h5 {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     padding-left: 20px;
 }
 .headSlider{

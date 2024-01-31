@@ -164,6 +164,7 @@
         display: inline;
         transform: scaleX(-1);
         width: 65px;
+        color: #878787;
     }
 
     .nextSlide {

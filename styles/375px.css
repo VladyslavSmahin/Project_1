@@ -20,14 +20,6 @@
     #start19 {
         display: none;
     }
-    .div_ul1{
-        margin-top: -54px;
-        margin-left: 0;
-        margin-bottom: 20px;
-        position: static;
-        display: flex;
-        flex-direction: column;
-    }
     .div_ul_2 {
         top: 0;
         margin-left: 0;
@@ -39,22 +31,6 @@
         z-index: 1;
     }
 
-    #Clip_path_2 {
-        position: relative;
-        top: 19px;
-        left: 10px;
-        width: 69px;
-        height: 60px;
-    }
-
-
-    .ul_1 {
-        position: static;
-        width: 253px;
-        margin-left: 30px;
-        font-size: 14px;
-    }
-
     .ul_2 {
         position: relative;
         width: 270px;
@@ -62,6 +38,7 @@
         z-index: 2;
         margin-top: -78px;
     }
+
 
     .p1p2 {
         display: flex;
@@ -71,14 +48,6 @@
 
     .italic_text {
         font-size: 40px;
-    }
-
-    #Clip_path_2 {
-        position: relative;
-        left: 4px;
-        top: -35px;
-        width: 69px;
-        height: 60px;
     }
 
     .textH2 {
@@ -239,6 +208,7 @@
         width: 100%;
     }
     .prevSlide {
+        color: #878787;
         width: 40px;
     }
     .nextSlide {

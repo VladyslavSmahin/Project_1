@@ -110,22 +110,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     slider.addEventListener('touchstart', (event) => {
         touchStartX = event.touches[0].clientX;
-    });
+    }, { passive: true });
 
     slider.addEventListener('touchmove', (event) => {
         touchEndX = event.touches[0].clientX;
-    });
+    }, { passive: true });
 
     slider.addEventListener('touchend', () => {
         const touchDiff = touchStartX - touchEndX;
-        const sensitivity = 50; // Чувствительность свайпа
+        const sensitivity = 50;
 
         if (touchDiff > sensitivity) {
             nextSlide();
         } else if (touchDiff < -sensitivity) {
             prevSlide();
         }
-    });
+    }, { passive: true });
 });
 
 

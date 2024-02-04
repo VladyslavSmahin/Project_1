@@ -53,81 +53,70 @@ document.addEventListener('DOMContentLoaded', function () {
         // popup_pay.style.display = 'none';
         // alert('плати бабки')
     })
-    const slider = document.querySelector('.slider');
-    const slides = document.querySelectorAll('.slide');
-    let currentIndex = 0;
 
-    function showSlide(index) {
-        const newTransformValue = -index * 33.333 + '%';
-        slider.style.transform = 'translateX(' + newTransformValue + ')';
+
+    const sliderContainer = document.querySelector('.slider-container');
+    const slides = document.querySelectorAll('.review');
+    let touchstartX = 0;
+    let touchendX = 0;
+
+    sliderContainer.addEventListener('touchstart', touchStartHandler);
+    sliderContainer.addEventListener('touchend', touchEndHandler);
+
+    function touchStartHandler(event) {
+        touchstartX = event.touches[0].pageX;
+        console.log(touchstartX)
     }
 
-    function nextSlide() {
-        currentIndex = (currentIndex + 1) % slides.length;
-        const newTransformValue = -currentIndex * getSlideWidth();
-        slider.style.transform = `translateX(${newTransformValue}px)`;
-        console.log('translateX(' + newTransformValue + ')');
+    function touchEndHandler(event) {
+        touchendX = event.changedTouches[0].pageX;
+        checkSwipeDirection();
+        console.log(touchendX)
     }
 
-    function prevSlide() {
-        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-        const newTransformValue = -currentIndex * getSlideWidth();
-        slider.style.transform = `translateX(${newTransformValue}px)`;
-    }
+    function checkSwipeDirection() {
+        const activeSlide = getActiveSlide();
 
-    function getSlideWidth() {
-        let width;
-        switch(true) {
-            case window.innerWidth >= 1024:
-                width = 325;
-                break;
-            case window.innerWidth >= 768:
-                width = 400;
-                break;
-            case window.innerWidth <= 320:
-                width = 270;
-                break;
-            default:
-                width = 330;
+        if (!activeSlide) {
+            return;
         }
-        return width;
-    }
+        const activeSlideId = parseInt(activeSlide.classList[2].replace('slide', ''), 10);
+        let newSlideId = null;
 
-    document.querySelector('.nextSlide').addEventListener('click', () => {
-        nextSlide();
-    });
+        if (touchendX < touchstartX) {
+            newSlideId = activeSlideId + 1;
 
-    document.querySelector('.prevSlide').addEventListener('click', () => {
-        prevSlide();
-    });
-
-    window.addEventListener('resize', () => {
-        const newTransformValue = -currentIndex * getSlideWidth();
-        slider.style.transform = `translateX(${newTransformValue}px)`;
-    });
-    let touchStartX = 0;
-    let touchEndX = 0;
-
-    slider.addEventListener('touchstart', (event) => {
-        touchStartX = event.touches[0].clientX;
-    }, { passive: true });
-
-    slider.addEventListener('touchmove', (event) => {
-        touchEndX = event.touches[0].clientX;
-    }, { passive: true });
-
-    slider.addEventListener('touchend', () => {
-        const touchDiff = touchStartX - touchEndX;
-        const sensitivity = 100;
-
-        if (Math.abs(touchDiff) > sensitivity) {
-            if (touchDiff > 0) {
-                nextSlide();
-            } else {
-                prevSlide();
+            if (newSlideId > slides.length) {
+                newSlideId = 1;
             }
         }
-    }, { passive: true });
+
+        if (touchendX > touchstartX) {
+            newSlideId = activeSlideId - 1;
+
+            if (newSlideId < 1) {
+                newSlideId = slides.length;
+            }
+        }
+
+        if (newSlideId) {
+            setActiveSlide(newSlideId);
+        }
+    }
+    function getActiveSlide() {
+        return document.querySelector('.review.active');
+    }
+
+    function setActiveSlide(id) {
+        slides.forEach(slide => slide.classList.remove('active'));
+
+        const newActiveSlide = document.querySelector(`.review.slide${id}`);
+        if (newActiveSlide) {
+            newActiveSlide.classList.add('active');
+        }
+    }
+
+
 });
 
 
